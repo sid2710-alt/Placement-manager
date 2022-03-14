@@ -1,0 +1,19 @@
+.header {
+    width: 100%;
+    height: 87px;
+    background-color: rgb(16, 81, 141);
+    margin: 0px 0px;
+    color: #630f0f;
+    position:fixed;
+    padding: 10px 0;
+    z-index: 100;
+  }
+  
+  .image {
+    width: 60px;
+    height: 60px;
+  }
+  a:hover { 
+    color: #000088; 
+    cursor: pointer;
+}

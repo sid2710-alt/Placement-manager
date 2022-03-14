@@ -1,0 +1,8 @@
+/* .studentCard{
+    display:flex;
+    color:blue;
+} */
+.score{
+    display:inline-flex;
+    justify-content: space-between;
+}

@@ -1,9 +1,20 @@
 const mongoose = require("mongoose");
+const URL="mongodb+srv://siddhu:siddhu@cluster0.pmixm.mongodb.net/Placement?retryWrites=true&w=majority";
 
 /*******************MAKING CONNECTION***************************/
-mongoose.connect("mongodb+srv://siddhu:siddhu@cluster0.pmixm.mongodb.net/Placement?retryWrites=true&w=majority");
+//mongoose.connect("mongodb://localhost/CSV");
+mongoose.connect(URL).then(()=>{
+console.log("database connected");
+}).catch(() => {
+ console.log("database error");
+});
 //setting it to db
 const db = mongoose.connection;
+
+/*******************MAKING CONNECTION***************************/
+//mongoose.connect("mongodb+srv://siddhu:siddhu@cluster0.pmixm.mongodb.net/Placement?retryWrites=true&w=majority");
+//setting it to db
+//const db = mongoose.connection;
 
 /****************CHECKING CONNECTION****************************/
 //if error occurs

@@ -34,7 +34,7 @@ app.set('layout extractScripts', true);
         maxAge: (1000 * 60 * 1000),
     },
     store: MongoStore.create({
-        mongoUrl: 'mongodb://localhost/fake-it',
+        mongoUrl: "mongodb+srv://siddhu:siddhu@cluster0.pmixm.mongodb.net/Placement?retryWrites=true&w=majority",
         autoRemove: 'disabled',
     },
         function (err) {

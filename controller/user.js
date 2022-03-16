@@ -2,7 +2,7 @@ const User = require("../models/user");
 const Student = require("../models/student");
 //const interview = require("../models/interview");
 module.exports.signUp=function(req,res){
-    res.render('user_SignUP');
+    res.render('user_SignUp');
 }
 module.exports.signIn=function(req,res){
     res.render('user_signIn');

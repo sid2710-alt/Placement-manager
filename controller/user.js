@@ -5,7 +5,7 @@ module.exports.signUp=function(req,res){
     res.render('user_SignUP');
 }
 module.exports.signIn=function(req,res){
-    res.render('user_SignIn');
+    res.render('user_signIn');
 }
 module.exports.create = function (req, res) {
       // later for sign up
